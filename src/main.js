@@ -7,6 +7,9 @@ import router from './router'
 
 import iView from 'iview'
 
+import echarts from 'echarts'
+
+Vue.prototype.$echarts = echarts
 
 
 

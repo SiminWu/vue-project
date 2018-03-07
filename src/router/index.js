@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import HelloWorld from '@/components/HelloWorld'
 import Layout from '@/components/comment/layout/layoutWrap'
-import Component from '@/components/comment/layout/layoutWrap'
+import Login from '@/components/comment/login'
 //角色
 import Role from '@/components/comment/setting/role'
 
@@ -21,6 +21,11 @@ export default new Router({
   routes: [
     {
       path: '/',
+      name: 'login',
+      component: Login,
+    },
+    {
+      path: '/layout',
       name: 'layout',
       component: Layout,
       children:[

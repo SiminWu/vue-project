@@ -1,5 +1,9 @@
 <template>
-  <div>上传文件</div>
+  <div>
+    <Upload action="//jsonplaceholder.typicode.com/posts/">
+      <Button type="ghost" icon="ios-cloud-upload-outline">文件上传</Button>
+    </Upload>
+  </div>
 </template>
 <script>
   export default {
